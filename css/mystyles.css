@@ -1,0 +1,83 @@
+.homebody {
+    background-color: lightcyan;
+}
+
+.mainpagetitle {
+    /**font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;**/
+    font-weight: 750;
+}
+
+.building:hover {
+    color: #707a82;
+   
+    
+}
+
+.building:link {
+    columns: white;
+}
+
+.building:visited {
+    color: white;
+}
+
+
+
+.resumeheaderdiv {
+    text-align: center;
+}
+
+.resumebodydiv {
+    color: black;
+}
+
+.columndiv {
+    column-count: 2;
+    
+}
+
+.columntitle {
+    column-span: all;
+    margin-bottom: 0px;
+}
+
+.columnleft {
+    margin-top: 10px;
+}
+
+.columndivright {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 0px;
+    vertical-align: top;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+.resumedescription {
+    font-style: italic;
+    column-span: all;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family:  "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 0px;
+}
+
+ul {
+    font-family:  "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+li {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+/**all links should have this:
+<h3 style="font-weight: 400; font-size: 1em; text-decoration: underline;>text</h3> "
+**/
