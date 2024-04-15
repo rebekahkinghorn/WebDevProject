@@ -1,0 +1,1981 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0208.0337                               -->
+<workbook original-version='18.1' source-build='2024.1.0 (20241.24.0208.0337)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='TopRanked' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Top Rated' datatype='integer' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='100'>
+        <calculation class='tableau' formula='100' />
+        <range max='100' min='1' />
+      </column>
+      <column caption='Top Score' datatype='integer' default-format='N' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='100'>
+        <calculation class='tableau' formula='100' />
+        <range max='100' min='1' />
+      </column>
+    </datasource>
+    <datasource caption='educational_attainment_suppleme (educational_attainment_supplementary_data)' inline='true' name='federated.1bt2jih1s5jw1b114zfs80ym2ai5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='educational_attainment_supplementary_data' name='excel-direct.1859v741nulzak15d81pc1ticmn2'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/runre/OneDrive - Brigham Young University/Winter 2024/IS 201/Web Dev/startbootstrap-clean-blog-gh-pages/archive/educational_attainment_supplementary_data.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1859v741nulzak15d81pc1ticmn2' name='educational_attainment_suppleme' table='[educational_attainment_suppleme$]' type='table'>
+          <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='no' outcome='6'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='real' name='F3' ordinal='2' />
+            <column datatype='integer' name='F4' ordinal='3' />
+            <column datatype='integer' name='F5' ordinal='4' />
+            <column datatype='real' name='F6' ordinal='5' />
+            <column datatype='integer' name='F7' ordinal='6' />
+            <column datatype='integer' name='F8' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='real' name='F10' ordinal='9' />
+            <column datatype='integer' name='F11' ordinal='10' />
+            <column datatype='integer' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='real' name='F14' ordinal='13' />
+            <column datatype='real' name='F15' ordinal='14' />
+            <column datatype='real' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='real' name='F19' ordinal='18' />
+            <column datatype='real' name='F20' ordinal='19' />
+            <column datatype='real' name='F21' ordinal='20' />
+            <column datatype='real' name='F22' ordinal='21' />
+            <column datatype='real' name='F23' ordinal='22' />
+            <column datatype='real' name='F24' ordinal='23' />
+            <column datatype='real' name='F25' ordinal='24' />
+            <column datatype='real' name='F26' ordinal='25' />
+            <column datatype='real' name='F27' ordinal='26' />
+            <column datatype='real' name='F28' ordinal='27' />
+            <column datatype='integer' name='F29' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1859v741nulzak15d81pc1ticmn2' name='educational_attainment_suppleme' table='[educational_attainment_suppleme$]' type='table'>
+          <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='no' outcome='6'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='real' name='F3' ordinal='2' />
+            <column datatype='integer' name='F4' ordinal='3' />
+            <column datatype='integer' name='F5' ordinal='4' />
+            <column datatype='real' name='F6' ordinal='5' />
+            <column datatype='integer' name='F7' ordinal='6' />
+            <column datatype='integer' name='F8' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='real' name='F10' ordinal='9' />
+            <column datatype='integer' name='F11' ordinal='10' />
+            <column datatype='integer' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='real' name='F14' ordinal='13' />
+            <column datatype='real' name='F15' ordinal='14' />
+            <column datatype='real' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='real' name='F19' ordinal='18' />
+            <column datatype='real' name='F20' ordinal='19' />
+            <column datatype='real' name='F21' ordinal='20' />
+            <column datatype='real' name='F22' ordinal='21' />
+            <column datatype='real' name='F23' ordinal='22' />
+            <column datatype='real' name='F24' ordinal='23' />
+            <column datatype='real' name='F25' ordinal='24' />
+            <column datatype='real' name='F26' ordinal='25' />
+            <column datatype='real' name='F27' ordinal='26' />
+            <column datatype='real' name='F28' ordinal='27' />
+            <column datatype='integer' name='F29' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-refresh-mode='' incremental-updates='' required-client-version='' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AC10001:no:A1:AC10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>false</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F25]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F25</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F27</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F27]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F27</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F28</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F28]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F28</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F29</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F29]</local-name>
+            <parent-name>[educational_attainment_suppleme]</parent-name>
+            <remote-alias>F29</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='country_name' datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <column caption='series_name' datatype='string' name='[F2]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='educational_attainment_suppleme' datatype='table' name='[__tableau_internal_object_id__].[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/runre/OneDrive - Brigham Young University/Winter 2024/IS 201/Web Dev/startbootstrap-clean-blog-gh-pages/archive/top ranked again.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/14/2024 04:43:09 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-refresh-mode='' incremental-updates='' required-client-version=''>
+            <refresh-event add-from-file-path='educational_attainment_suppleme (educational_attainment_supplementary_data)' increment-value='%null%' refresh-type='create' rows-inserted='79053' timestamp-start='2024-04-14 04:43:07.981' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>209</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F2</remote-alias>
+              <ordinal>1</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>990</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F3</remote-alias>
+              <ordinal>2</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6173</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F4</remote-alias>
+              <ordinal>3</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F5</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F5</remote-alias>
+              <ordinal>4</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F6</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F6</remote-alias>
+              <ordinal>5</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6933</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F7</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F7]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F7</remote-alias>
+              <ordinal>6</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F8</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F8]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F8</remote-alias>
+              <ordinal>7</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F9</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F9]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F9</remote-alias>
+              <ordinal>8</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F10</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F10</remote-alias>
+              <ordinal>9</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7411</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F11</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F11]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F11</remote-alias>
+              <ordinal>10</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F12</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F12</remote-alias>
+              <ordinal>11</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F13</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F13]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F13</remote-alias>
+              <ordinal>12</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F14</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F14]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F14</remote-alias>
+              <ordinal>13</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F15</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F15]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F15</remote-alias>
+              <ordinal>14</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7432</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F16</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F16]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F16</remote-alias>
+              <ordinal>15</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F17</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F17]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F17</remote-alias>
+              <ordinal>16</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F18</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F18</remote-alias>
+              <ordinal>17</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F19</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F19]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F19</remote-alias>
+              <ordinal>18</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F20</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F20]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F20</remote-alias>
+              <ordinal>19</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7535</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F21</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F21]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F21</remote-alias>
+              <ordinal>20</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>389</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F22</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F22]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F22</remote-alias>
+              <ordinal>21</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>175</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F23</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F23]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F23</remote-alias>
+              <ordinal>22</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>508</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F24</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F24</remote-alias>
+              <ordinal>23</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>105</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F25</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F25]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F25</remote-alias>
+              <ordinal>24</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8268</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F26</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F26]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F26</remote-alias>
+              <ordinal>25</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>424</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F27</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F27]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F27</remote-alias>
+              <ordinal>26</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>618</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F28</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F28]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F28</remote-alias>
+              <ordinal>27</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2769</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F29</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F29]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F29</remote-alias>
+              <ordinal>28</ordinal>
+              <family>educational_attainment_suppleme</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='educational_attainment_suppleme' id='educational!attainment!suppleme_88083E4BCD7F430883C77EE39EBC5C2D'>
+            <properties context=''>
+              <relation connection='excel-direct.1859v741nulzak15d81pc1ticmn2' name='educational_attainment_suppleme' table='[educational_attainment_suppleme$]' type='table'>
+                <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='no' outcome='6'>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                  <column datatype='real' name='F3' ordinal='2' />
+                  <column datatype='integer' name='F4' ordinal='3' />
+                  <column datatype='integer' name='F5' ordinal='4' />
+                  <column datatype='real' name='F6' ordinal='5' />
+                  <column datatype='integer' name='F7' ordinal='6' />
+                  <column datatype='integer' name='F8' ordinal='7' />
+                  <column datatype='integer' name='F9' ordinal='8' />
+                  <column datatype='real' name='F10' ordinal='9' />
+                  <column datatype='integer' name='F11' ordinal='10' />
+                  <column datatype='integer' name='F12' ordinal='11' />
+                  <column datatype='integer' name='F13' ordinal='12' />
+                  <column datatype='real' name='F14' ordinal='13' />
+                  <column datatype='real' name='F15' ordinal='14' />
+                  <column datatype='real' name='F16' ordinal='15' />
+                  <column datatype='real' name='F17' ordinal='16' />
+                  <column datatype='real' name='F18' ordinal='17' />
+                  <column datatype='real' name='F19' ordinal='18' />
+                  <column datatype='real' name='F20' ordinal='19' />
+                  <column datatype='real' name='F21' ordinal='20' />
+                  <column datatype='real' name='F22' ordinal='21' />
+                  <column datatype='real' name='F23' ordinal='22' />
+                  <column datatype='real' name='F24' ordinal='23' />
+                  <column datatype='real' name='F25' ordinal='24' />
+                  <column datatype='real' name='F26' ordinal='25' />
+                  <column datatype='real' name='F27' ordinal='26' />
+                  <column datatype='real' name='F28' ordinal='27' />
+                  <column datatype='integer' name='F29' ordinal='28' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='cwurData (cwurData)' inline='true' name='federated.1jn21ru1qw207014xsohv08wvdmb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cwurData' name='excel-direct.1q4n1tq0b6wxbi11fz3we0fzdw7d'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/runre/OneDrive - Brigham Young University/Winter 2024/IS 201/Web Dev/startbootstrap-clean-blog-gh-pages/archive/cwurData.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1q4n1tq0b6wxbi11fz3we0fzdw7d' name='cwurData' table='[cwurData$]' type='table'>
+          <columns gridOrigin='A1:N2201:no:A1:N2201:0' header='yes' outcome='6'>
+            <column datatype='integer' name='world_rank' ordinal='0' />
+            <column datatype='string' name='institution' ordinal='1' />
+            <column datatype='string' name='country' ordinal='2' />
+            <column datatype='integer' name='national_rank' ordinal='3' />
+            <column datatype='integer' name='quality_of_education' ordinal='4' />
+            <column datatype='integer' name='alumni_employment' ordinal='5' />
+            <column datatype='integer' name='quality_of_faculty' ordinal='6' />
+            <column datatype='integer' name='publications' ordinal='7' />
+            <column datatype='integer' name='influence' ordinal='8' />
+            <column datatype='integer' name='citations' ordinal='9' />
+            <column datatype='integer' name='broad_impact' ordinal='10' />
+            <column datatype='integer' name='patents' ordinal='11' />
+            <column datatype='real' name='score' ordinal='12' />
+            <column datatype='integer' name='year' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1q4n1tq0b6wxbi11fz3we0fzdw7d' name='cwurData' table='[cwurData$]' type='table'>
+          <columns gridOrigin='A1:N2201:no:A1:N2201:0' header='yes' outcome='6'>
+            <column datatype='integer' name='world_rank' ordinal='0' />
+            <column datatype='string' name='institution' ordinal='1' />
+            <column datatype='string' name='country' ordinal='2' />
+            <column datatype='integer' name='national_rank' ordinal='3' />
+            <column datatype='integer' name='quality_of_education' ordinal='4' />
+            <column datatype='integer' name='alumni_employment' ordinal='5' />
+            <column datatype='integer' name='quality_of_faculty' ordinal='6' />
+            <column datatype='integer' name='publications' ordinal='7' />
+            <column datatype='integer' name='influence' ordinal='8' />
+            <column datatype='integer' name='citations' ordinal='9' />
+            <column datatype='integer' name='broad_impact' ordinal='10' />
+            <column datatype='integer' name='patents' ordinal='11' />
+            <column datatype='real' name='score' ordinal='12' />
+            <column datatype='integer' name='year' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-refresh-mode='' incremental-updates='' required-client-version='' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N2201:no:A1:N2201:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>world_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[world_rank]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>world_rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>institution</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[institution]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>institution</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>national_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[national_rank]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>national_rank</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quality_of_education</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quality_of_education]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>quality_of_education</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alumni_employment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[alumni_employment]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>alumni_employment</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quality_of_faculty</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quality_of_faculty]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>quality_of_faculty</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>publications</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[publications]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>publications</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>influence</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[influence]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>influence</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>citations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[citations]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>citations</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>broad_impact</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[broad_impact]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>broad_impact</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patents</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[patents]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>patents</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[score]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>score</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[cwurData]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='cwurData' datatype='table' name='[__tableau_internal_object_id__].[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]' role='measure' type='quantitative' />
+      <column caption='Alumni Employment' datatype='integer' name='[alumni_employment]' role='measure' type='quantitative' />
+      <column caption='Broad Impact' datatype='integer' name='[broad_impact]' role='measure' type='quantitative' />
+      <column caption='Citations' datatype='integer' name='[citations]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Influence' datatype='integer' name='[influence]' role='measure' type='quantitative' />
+      <column caption='Institution' datatype='string' name='[institution]' role='dimension' type='nominal' />
+      <column caption='National Rank' datatype='integer' name='[national_rank]' role='measure' type='quantitative' />
+      <column caption='Patents' datatype='integer' name='[patents]' role='measure' type='quantitative' />
+      <column caption='Publications' datatype='integer' name='[publications]' role='measure' type='quantitative' />
+      <column caption='Quality Of Education' datatype='integer' name='[quality_of_education]' role='measure' type='quantitative' />
+      <column caption='Quality Of Faculty' datatype='integer' name='[quality_of_faculty]' role='measure' type='quantitative' />
+      <column caption='Score' datatype='real' name='[score]' role='measure' type='quantitative' />
+      <column caption='World Rank' datatype='integer' name='[world_rank]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/runre/OneDrive - Brigham Young University/Winter 2024/IS 201/Web Dev/startbootstrap-clean-blog-gh-pages/archive/top ranked.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/14/2024 04:42:52 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-refresh-mode='' incremental-updates='' required-client-version=''>
+            <refresh-event add-from-file-path='cwurData (cwurData)' increment-value='%null%' refresh-type='create' rows-inserted='2200' timestamp-start='2024-04-14 04:42:51.800' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>world_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[world_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>world_rank</remote-alias>
+              <ordinal>0</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>950</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>institution</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[institution]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>institution</remote-alias>
+              <ordinal>1</ordinal>
+              <family>cwurData</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>961</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>country</remote-alias>
+              <ordinal>2</ordinal>
+              <family>cwurData</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>56</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>national_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[national_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>national_rank</remote-alias>
+              <ordinal>3</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>229</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>quality_of_education</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[quality_of_education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>quality_of_education</remote-alias>
+              <ordinal>4</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>354</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>alumni_employment</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[alumni_employment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>alumni_employment</remote-alias>
+              <ordinal>5</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>520</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>quality_of_faculty</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[quality_of_faculty]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>quality_of_faculty</remote-alias>
+              <ordinal>6</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>195</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>publications</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[publications]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>publications</remote-alias>
+              <ordinal>7</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>925</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>influence</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[influence]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>influence</remote-alias>
+              <ordinal>8</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>881</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>citations</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[citations]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>citations</remote-alias>
+              <ordinal>9</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>126</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>broad_impact</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[broad_impact]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>broad_impact</remote-alias>
+              <ordinal>10</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>322</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>patents</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[patents]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>patents</remote-alias>
+              <ordinal>11</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>576</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>score</remote-alias>
+              <ordinal>12</ordinal>
+              <family>cwurData</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>632</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>13</ordinal>
+              <family>cwurData</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='cwurData' id='cwurData_E18FE5AE3F6949E5A36DD4B796E0D73A'>
+            <properties context=''>
+              <relation connection='excel-direct.1q4n1tq0b6wxbi11fz3we0fzdw7d' name='cwurData' table='[cwurData$]' type='table'>
+                <columns gridOrigin='A1:N2201:no:A1:N2201:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='world_rank' ordinal='0' />
+                  <column datatype='string' name='institution' ordinal='1' />
+                  <column datatype='string' name='country' ordinal='2' />
+                  <column datatype='integer' name='national_rank' ordinal='3' />
+                  <column datatype='integer' name='quality_of_education' ordinal='4' />
+                  <column datatype='integer' name='alumni_employment' ordinal='5' />
+                  <column datatype='integer' name='quality_of_faculty' ordinal='6' />
+                  <column datatype='integer' name='publications' ordinal='7' />
+                  <column datatype='integer' name='influence' ordinal='8' />
+                  <column datatype='integer' name='citations' ordinal='9' />
+                  <column datatype='integer' name='broad_impact' ordinal='10' />
+                  <column datatype='integer' name='patents' ordinal='11' />
+                  <column datatype='real' name='score' ordinal='12' />
+                  <column datatype='integer' name='year' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Top Internationally Ranked Universities in the USA and UK'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cwurData (cwurData)' name='federated.1jn21ru1qw207014xsohv08wvdmb' />
+            <datasource name='Parameters' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Top Score' datatype='integer' default-format='N' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='100'>
+              <calculation class='tableau' formula='100' />
+              <range max='100' min='1' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1jn21ru1qw207014xsohv08wvdmb'>
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Institution' datatype='string' name='[institution]' role='dimension' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[institution]' derivation='None' name='[none:institution:nk]' pivot='key' type='nominal' />
+            <column-instance column='[world_rank]' derivation='None' name='[none:world_rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[world_rank]' derivation='Sum' name='[sum:world_rank:qk]' pivot='key' type='quantitative' />
+            <column caption='World Rank' datatype='integer' name='[world_rank]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1jn21ru1qw207014xsohv08wvdmb].[none:country:nk]'>
+            <groupfilter count='[Parameters].[Parameter 2]' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([world_rank])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:country:nk]' member='&quot;United Kingdom&quot;' />
+                  <groupfilter function='member' level='[none:country:nk]' member='&quot;USA&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1jn21ru1qw207014xsohv08wvdmb].[none:world_rank:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>50</max>
+          </filter>
+          <slices>
+            <column>[federated.1jn21ru1qw207014xsohv08wvdmb].[none:country:nk]</column>
+            <column>[federated.1jn21ru1qw207014xsohv08wvdmb].[none:world_rank:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1jn21ru1qw207014xsohv08wvdmb].[sum:world_rank:qk]</rows>
+        <cols>([federated.1jn21ru1qw207014xsohv08wvdmb].[none:country:nk] / [federated.1jn21ru1qw207014xsohv08wvdmb].[none:institution:nk])</cols>
+      </table>
+      <simple-id uuid='{E07E606F-014A-420F-9437-BED0541024FD}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' maximized='true' name='Top Internationally Ranked Universities in the USA and UK'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1jn21ru1qw207014xsohv08wvdmb].[none:country:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1jn21ru1qw207014xsohv08wvdmb].[none:country:nk]</field>
+            <field>[federated.1jn21ru1qw207014xsohv08wvdmb].[none:institution:nk]</field>
+            <field>[federated.1jn21ru1qw207014xsohv08wvdmb].[none:world_rank:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8446C17E-5A66-4CF1-B9CE-2A4C64700224}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Top Internationally Ranked Universities in the USA and UK' width='192'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
